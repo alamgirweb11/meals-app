@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Meals App</h4>
+    <h4 class="text-3xl bg-blue-600 text-white text-center py-3">Meals App</h4>
   </div>
 </template>
 
@@ -8,8 +8,5 @@
 </script>
 
 <style scoped>
-h4{
-   text-align: center;
-   color:#009900;
-}
+
 </style>
