@@ -17,7 +17,8 @@
     <MealItem v-for="(meal, index) in meals" :key="index" :meal="meal" />
   </div>
 </template>
-<script setup>
+<script 
+setup>
 import MealItem from "../components/MealItem.vue";
 import { computed } from "@vue/reactivity";
 import { ref, onMounted } from "vue";
