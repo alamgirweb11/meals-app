@@ -1,10 +1,10 @@
 <template>
   <div class="p-8">
-    <h1 class="text-4xl font-bold mb-4">Ingredients</h1>
+    <h1 class="text-4xl font-bold text-orange-500 mb-4">Ingredients</h1>
     <input
       type="text"
       v-model="keyword"
-      class="rounded border-2 border-gray-200 w-full"
+      class="rounded border-2 border-gray-200 w-full focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
       placeholder="Search for ingredients"
     />
     <div

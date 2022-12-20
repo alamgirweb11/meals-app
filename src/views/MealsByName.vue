@@ -8,7 +8,7 @@
     <input
       type="text"
       v-model="keyword"
-      class="rounded border-2 border-gray-200 w-full"
+      class="rounded border-2 border-gray-200 w-full focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500"
       placeholder="Search for meals"
       @change="searchMeals"
     />

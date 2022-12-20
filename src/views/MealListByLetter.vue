@@ -9,6 +9,7 @@
             v-for="letter of letters"
             :key="letter"
             :to="{name: 'mealsListByLetter', params: {letter} }"
+            class="hover:scale-150 hover:text-orange-500 transition-colors"
             >
             {{ letter }}
             </router-link>
